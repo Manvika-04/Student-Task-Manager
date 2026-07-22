@@ -4,7 +4,7 @@
   <img src="https://img.shields.io/badge/Node.js-v20-green?style=for-the-badge&logo=node.js">
   <img src="https://img.shields.io/badge/Express.js-Backend-black?style=for-the-badge&logo=express">
   <img src="https://img.shields.io/badge/HTML5-CSS3-JavaScript-orange?style=for-the-badge&logo=html5">
-  <img src="https://img.shields.io/badge/Chart.js-Analytics-FF6384?style=for-the-badge&logo=chartdotjs&logoColor=white">
+  <img src="https://img.shields.io/badge/Chart.js-Analytics-FF6384?style=for-the-badge">
   <img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge">
 </p>
 
