@@ -1,19 +1,23 @@
 # 📚 Student Task Manager
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Node.js-v20-green?style=for-the-badge&logo=node.js">
-  <img src="https://img.shields.io/badge/Express.js-Backend-black?style=for-the-badge&logo=express">
-  <img src="https://img.shields.io/badge/HTML5-CSS3-JavaScript-orange?style=for-the-badge&logo=html5">
-  <img src="https://img.shields.io/badge/Chart.js-Analytics-FF6384?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge">
+
+<img src="https://img.shields.io/badge/Node.js-v20-339933?style=for-the-badge&logo=nodedotjs&logoColor=white">
+<img src="https://img.shields.io/badge/Express.js-Backend-000000?style=for-the-badge&logo=express&logoColor=white">
+<img src="https://img.shields.io/badge/HTML5-CSS3-JavaScript-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/Chart.js-Analytics-FF6384?style=for-the-badge">
+<img src="https://img.shields.io/badge/Responsive-Yes-28a745?style=for-the-badge">
+
+</p>
+
+<h1 align="center">📚 Student Task Manager</h1>
+
+<p align="center">
+A Modern Full Stack Task Management Web Application for Students
 </p>
 
 <p align="center">
-
-## A Modern Full Stack Task Management Web Application for Students
-
-Designed and Developed by **Manvika Bhanothu**
-
+Designed and Developed by <b>Manvika Bhanothu</b>
 </p>
 
 ---
@@ -22,154 +26,67 @@ Designed and Developed by **Manvika Bhanothu**
 
 Student Task Manager is a modern Full Stack Web Application developed to help students efficiently organize, monitor, and complete their academic and personal tasks.
 
-The application provides a simple yet powerful interface where users can create tasks, edit existing tasks, mark them as completed, delete unwanted tasks, search tasks instantly, and monitor their productivity through an interactive analytics dashboard.
+The application provides an easy-to-use interface where users can create tasks, edit existing tasks, mark tasks as completed, delete unwanted tasks, search tasks instantly, and monitor their productivity through an interactive analytics dashboard.
 
-Unlike a simple to-do list, this application provides a complete task management experience with visual progress tracking, priority management, due-date tracking, dark mode support, responsive design, and real-time dashboard analytics.
-
-The backend is developed using **Node.js** and **Express.js**, while the frontend is built using **HTML5**, **CSS3**, and **Vanilla JavaScript**. Task information is stored locally in a JSON file, making the project lightweight and easy to understand for beginners.
+Unlike a simple to-do list, this application provides a complete task management experience with visual progress tracking, due-date management, priority management, responsive design, and modern UI components.
 
 ---
 
 # 🎯 Objectives
 
-The primary objectives of this project are:
-
-- Develop a complete Full Stack CRUD application.
-- Improve task organization for students.
-- Demonstrate REST API implementation.
-- Learn frontend-backend integration.
-- Practice responsive web development.
-- Visualize productivity using charts.
-- Implement modern UI/UX principles.
+- Develop a complete Full Stack CRUD Application
+- Learn REST API implementation
+- Improve Frontend-Backend Integration
+- Practice Responsive Web Development
+- Implement Dashboard Analytics
+- Understand JSON-based data storage
 
 ---
 
-# ✨ Key Features
+# ✨ Features
 
-## 📌 Task Management
-
-- Add New Tasks
-- Edit Existing Tasks
-- Delete Tasks
-- Mark Tasks as Completed
-
----
-
-## 📅 Due Date Management
-
-- Select Due Date
-- Highlight Expired Tasks
-- Display Upcoming Tasks
+- ✅ Add New Tasks
+- ✏️ Edit Tasks
+- ✔️ Complete Tasks
+- 🗑 Delete Tasks
+- 🔍 Search Tasks
+- 📅 Due Date Support
+- 🚩 Priority Management
+- 📊 Dashboard Statistics
+- 📈 Analytics Chart
+- 🌙 Dark Mode
+- 🎉 Confetti Celebration
+- 📱 Responsive Design
 
 ---
 
-## 🚩 Priority Management
+# 🛠 Tech Stack
 
-Each task can be assigned one of three priorities:
-
-- 🔴 High
-- 🟡 Medium
-- 🟢 Low
-
-Priority badges make important tasks easy to identify.
-
----
-
-## 📊 Dashboard
-
-The dashboard automatically displays:
-
-- Total Tasks
-- Completed Tasks
-- Pending Tasks
-- Progress Percentage
-
-The values update instantly after every operation.
-
----
-
-## 📈 Analytics
-
-The project uses **Chart.js** to generate a Doughnut Chart that visually represents:
-
-- Completed Tasks
-- Pending Tasks
-
-The chart updates automatically whenever tasks change.
-
----
-
-## 🔍 Search Functionality
-
-Users can instantly search tasks by typing keywords.
-
-The search works in real time without reloading the page.
-
----
-
-## 🌙 Dark Mode
-
-Supports Light Mode and Dark Mode.
-
-Dark mode preference is automatically saved using Local Storage.
-
----
-
-## 🎉 Celebration Animation
-
-When all tasks are completed, the application displays a confetti celebration using Canvas Confetti.
-
----
-
-## 📱 Responsive Design
-
-The application works on:
-
-- Desktop
-- Laptop
-- Tablet
-- Mobile Devices
-
----
-
-# 🛠 Technology Stack
-
-## Frontend
-
-- HTML5
-- CSS3
-- JavaScript
-
-## Backend
-
-- Node.js
-- Express.js
-
-## Database
-
-- JSON File
-
-## Libraries
-
-- Chart.js
-- Font Awesome
-- Canvas Confetti
+| Technology | Purpose |
+|------------|---------|
+| HTML5 | Structure |
+| CSS3 | Styling |
+| JavaScript | Frontend Logic |
+| Node.js | Backend Runtime |
+| Express.js | REST API |
+| JSON | Data Storage |
+| Chart.js | Analytics |
+| Font Awesome | Icons |
 
 ---
 
 # 📂 Folder Structure
 
-```
-Student-Task-Manager
+```text
+Student-Task-Manager/
 │
-├── images
+├── images/
 │   ├── light-mode.jpeg
 │   ├── dark-mode.jpeg
 │   ├── dashboard.jpeg
-│   ├── analytics.jpeg
-│   └── edit-task.jpeg
+│   └── analytics.jpeg
 │
-├── public
+├── public/
 │   ├── index.html
 │   ├── style.css
 │   ├── script.js
@@ -177,9 +94,8 @@ Student-Task-Manager
 │   └── confetti.js
 │
 ├── server.js
-├── tasks.json
 ├── package.json
-├── package-lock.json
+├── tasks.json
 ├── README.md
 └── .gitignore
 ```
@@ -188,81 +104,31 @@ Student-Task-Manager
 
 # 📸 Project Screenshots
 
-## Home Page
+## 🌞 Light Mode
 
-![Home](images/light-mode.jpeg)
+![Light Mode](images/light-mode.jpeg)
 
 ---
 
-## Dark Mode
+## 🌙 Dark Mode
 
 ![Dark Mode](images/dark-mode.jpeg)
 
 ---
 
-## Dashboard
+## 📊 Dashboard
 
 ![Dashboard](images/dashboard.jpeg)
 
 ---
 
-## Analytics Chart
+## 📈 Analytics Chart
 
 ![Analytics](images/analytics.jpeg)
 
 ---
 
-# ⚙ How It Works
-
-### Step 1
-
-The user enters:
-
-- Task Name
-- Due Date
-- Priority
-
-and clicks **Add Task**.
-
----
-
-### Step 2
-
-The frontend sends the task data to the Express server using the Fetch API.
-
----
-
-### Step 3
-
-The server stores the task inside **tasks.json**.
-
----
-
-### Step 4
-
-The frontend reloads the updated task list.
-
----
-
-### Step 5
-
-Dashboard cards and analytics chart update automatically.
-
----
-
-### Step 6
-
-Users can:
-
-- Edit
-- Complete
-- Delete
-
-tasks whenever required.
-
----
-
-# 🚀 Installation
+# ⚙ Installation
 
 ## Clone Repository
 
@@ -270,15 +136,11 @@ tasks whenever required.
 git clone https://github.com/Manvika-04/Student-Task-Manager.git
 ```
 
----
-
-## Open Project
+## Go to Project
 
 ```bash
 cd Student-Task-Manager
 ```
-
----
 
 ## Install Packages
 
@@ -286,17 +148,13 @@ cd Student-Task-Manager
 npm install
 ```
 
----
-
-## Run Project
+## Start Server
 
 ```bash
 node server.js
 ```
 
----
-
-## Open Browser
+Open:
 
 ```
 http://localhost:3000
@@ -304,13 +162,14 @@ http://localhost:3000
 
 ---
 
-# 🔄 Application Workflow
+# 🚀 Application Workflow
 
 ```
 User
    │
    ▼
-Frontend (HTML/CSS/JS)
+Frontend
+(HTML + CSS + JavaScript)
    │
 Fetch API
    │
@@ -327,90 +186,64 @@ Updated Dashboard
 
 ---
 
-# 📚 REST API
+# 📡 REST API
 
 | Method | Endpoint | Description |
-|----------|-----------|-------------|
-| GET | /tasks | Fetch all tasks |
-| POST | /tasks | Add new task |
-| PUT | /tasks/:id | Update task |
-| DELETE | /tasks/:id | Delete task |
-
----
-
-# 📈 Future Enhancements
-
-- User Authentication
-- MongoDB Integration
-- Task Categories
-- Calendar View
-- Email Notifications
-- Export PDF
-- Excel Export
-- Cloud Deployment
-- Multiple User Support
-- AI-based Task Suggestions
+|---------|----------|-------------|
+| GET | /tasks | Get All Tasks |
+| POST | /tasks | Add New Task |
+| PUT | /tasks/:id | Update Task |
+| DELETE | /tasks/:id | Delete Task |
 
 ---
 
 # 🎓 Learning Outcomes
 
-Through this project, the following concepts were implemented:
-
 - CRUD Operations
 - REST APIs
 - Express.js
-- Node.js
 - Fetch API
+- JSON Handling
 - DOM Manipulation
-- Responsive Design
-- Local Storage
+- Responsive Web Design
 - Chart.js Integration
-- JSON Database Handling
-- Modern UI Design
+- Dashboard Development
+- Frontend–Backend Communication
+
+---
+
+# 🚀 Future Enhancements
+
+- User Authentication
+- MongoDB Database
+- Calendar View
+- Email Notifications
+- Export Tasks to PDF
+- Multiple User Support
+- Cloud Deployment
 
 ---
 
 # 👩‍💻 Author
 
-## **Manvika Bhanothu**
+### **Manvika Bhanothu**
 
-Electronics and Communication Engineering (ECE)
+**Electronics and Communication Engineering (ECE)**
 
-Vardhaman College of Engineering
+**Vardhaman College of Engineering**
 
-### GitHub
+**GitHub:** https://github.com/Manvika-04
 
-https://github.com/Manvika-04
-
-### LinkedIn
-
-https://www.linkedin.com/in/bhanothu-manvika-995648290/
-
----
-
-# 🙏 Acknowledgements
-
-Special thanks to:
-
-- Node.js
-- Express.js
-- Chart.js
-- Font Awesome
-- Canvas Confetti
-
-for providing the open-source tools and libraries that made this project possible.
+**LinkedIn:** https://www.linkedin.com/in/bhanothu-manvika-995648290/
 
 ---
 
 # 📄 License
 
-This project is created for educational purposes, portfolio demonstration, and internship submission.
+This project is developed for educational purposes, portfolio demonstration, and internship project submission.
 
 ---
 
-# ⭐ If you like this project
+# ⭐ Support
 
-Please consider giving this repository a **Star ⭐** on GitHub.
-
-It helps support the project and encourages future improvements.
+If you found this project helpful, please give this repository a ⭐ on GitHub.
