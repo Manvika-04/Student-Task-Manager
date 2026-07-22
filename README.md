@@ -212,12 +212,6 @@ Student-Task-Manager
 
 ---
 
-## Edit Task
-
-![Edit Task](images/edit-task.jpeg)
-
----
-
 # ⚙ How It Works
 
 ### Step 1
